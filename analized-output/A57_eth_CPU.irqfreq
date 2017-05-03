@@ -1,9 +1,5 @@
 Checking the trace for lost events...
 Timerange: [2017-04-28 20:17:43.433603110, 2017-04-28 20:18:09.377834810]
-Hard IRQ                                             Duration (us)
-                       count          min          avg          max        stdev       
-----------------------------------------------------------------------------------|
-3:  <arch_timer>       14083        2.100        7.910       24.640        2.465  |
 
 Handler duration frequency distribution arch_timer (3) (us)
 ################################################################################
@@ -29,11 +25,6 @@ Handler duration frequency distribution arch_timer (3) (us)
  23.513                                                                             1
 
 
-Hard IRQ                                             Duration (us)
-                       count          min          avg          max        stdev       
-----------------------------------------------------------------------------------|
-6:  <timer>             1087        2.400       15.020       95.860        5.406  |
-
 Handler duration frequency distribution timer (6) (us)
 ################################################################################
   2.400 ############                                                              71
@@ -57,11 +48,6 @@ Handler duration frequency distribution timer (6) (us)
  86.514                                                                            0
  91.187                                                                            1
 
-
-Hard IRQ                                             Duration (us)
-                       count          min          avg          max        stdev       
-----------------------------------------------------------------------------------|
-14: <mhu_link>             2        4.740        5.900        7.060        1.640  |
 
 Handler duration frequency distribution mhu_link (14) (us)
 ################################################################################
@@ -87,11 +73,6 @@ Handler duration frequency distribution mhu_link (14) (us)
   6.944 ######################################################################## 1
 
 
-Hard IRQ                                             Duration (us)
-                       count          min          avg          max        stdev       
-----------------------------------------------------------------------------------|
-26: <7ffa0000.i2c>        12        2.820        4.583        6.020        1.308  |
-
 Handler duration frequency distribution 7ffa0000.i2c (26) (us)
 ################################################################################
   2.820 ################################################                         2
@@ -115,11 +96,6 @@ Handler duration frequency distribution 7ffa0000.i2c (26) (us)
   5.700 ######################################################################## 3
   5.860 ################################################                         2
 
-
-Hard IRQ                                             Duration (us)
-                       count          min          avg          max        stdev       
-----------------------------------------------------------------------------------|
-28: <ehci_hcd:usb1>      430        2.180       11.828       32.680        8.886  |
 
 Handler duration frequency distribution ehci_hcd:usb1 (28) (us)
 ################################################################################
@@ -145,11 +121,6 @@ Handler duration frequency distribution ehci_hcd:usb1 (28) (us)
  31.155 ###                                                                        6
 
 
-Hard IRQ                                             Duration (us)
-                       count          min          avg          max        stdev       
-----------------------------------------------------------------------------------|
-31: <eth0>             98795        1.840        4.057       96.960        0.881  |
-
 Handler duration frequency distribution eth0 (31) (us)
 ################################################################################
   1.840 ######################################################################## 98602
@@ -172,5 +143,4 @@ Handler duration frequency distribution eth0 (31) (us)
  82.692                                                                              0
  87.448                                                                              0
  92.204                                                                              2
-
 
